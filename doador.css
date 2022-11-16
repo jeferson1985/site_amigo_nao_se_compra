@@ -17,10 +17,15 @@
     padding: 0 35px;
 }
 
-.logo p {
-    color: purple;
-    font-weight: 900;
-    margin: 2rem;
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
 }
 
 .header {
@@ -122,9 +127,7 @@ textarea {
     background-color: purple;
 }
 
-a {
-    font-size: 1.5rem;
-    font-weight: bold;
+.button a {
     color: #fff;
 }
 
